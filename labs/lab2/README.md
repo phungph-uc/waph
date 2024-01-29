@@ -55,7 +55,7 @@ Add the jQuery library to your page, and implement HTML and JavaScript code in j
 
   **i.** When the corresponding button is clicked, send an Ajax GET request to the `echo.php` web application and display the response content
 
-  **ii.** Similarly, when the corresponding button is clicked, send an Ajax GET request to the `echo.php` web application and display the response content 
+  **ii.** Similarly, when the corresponding button is clicked, send an Ajax POST request to the `echo.php` web application and display the response content 
 
 
 #### d. Web API integration (10 pts)
