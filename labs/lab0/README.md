@@ -6,7 +6,7 @@
 
 ## Overview 
 
-This lab is covered in Lecture 2, with preparation homework in Lecture 1. In Part I, you need to deploy an Ubuntu 22.04 Virtual Machine on the provided online environment and install software and applications. In Part II, you will clone the course repository and your private repository and complete git exercises to write the report. 
+This lab is covered in Lecture 2, with preparation homework in Lecture 1. In Part I, you need to setup an Ubuntu 22.04 Virtual Machine on VirtualBox and install software and applications. In Part II, you will clone the course repository and your private repository and complete git exercises to write the report.
 
 
 ## Report 
@@ -22,13 +22,13 @@ Also, include a direct clickable link to the lab folder on GitHub.com so that it
 
 ## Part I - Ubuntu Virtual Machine & Software Installation
 
-A summary of steps you have performed to deploy your Ubuntu 22.04 virtual machine on CECH Sandbox ([https://sandbox02.cech.uc.edu/vcac](https://sandbox02.cech.uc.edu/vcac)) and install the required software and applications. 
+A summary of steps you have performed to setup the Ubuntu 22.04 virtual machine and install the required software and applications.
 
 No screenshot is required in this sub-section; however, it is welcome, and detailed information is encouraged.
 
 ### Apache Web Server Testing
 
-Include a **screenshot** to demonstrate that the Apache Web Server is running properly as it can be accessed in Google Chrome within your Ubuntu VM (with proper name as required) using its IP address.
+Include a **screenshot** to demonstrate that the Apache Web Server is running properly as it can be accessed in Google Chrome within your Ubuntu VM , and a browser in your laptop/computer using its IP address.
 
 
 ## Part II - git Repositories and Exercises
