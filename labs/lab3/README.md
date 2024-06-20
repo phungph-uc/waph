@@ -73,13 +73,13 @@ Follow the instructions to revise the code with a prepared statement.
 
 ## Report 
 
-You can write a report using Markdown format or any Word processor, i.e., you do not have to use Markdown. **Please note that demo screenshots must include your virtual machine name or your name with proper captions and be visible, i.e., in high resolution, not too blurry or with much blank space, for grading**. 
+You can write a report using Markdown format. **Please note that demo screenshots must include your virtual machine name or your name with proper captions and be visible, i.e., in high resolution, not too blurry or with much blank space, for grading**. 
 
 Your report should follow the template provided in Lecture 2 ([https://github.com/phungph-uc/waph/blob/main/README-template.md](https://github.com/phungph-uc/waph/blob/main/README-template.md)) which should include the course name and instructor, your name and email together with your headshot (150x150 pixels), and sub-sections of the assignment's overview, and each task and sub-task.
 
 
 ## Submission
 
-Your report must be exported in  PDF with contents and screenshots correctly rendered in proper order. 
+Your report must be exported in PDF with contents and screenshots correctly rendered in proper order. 
 
 The PDF file should be named `your-username-waph-lab3.pdf`, e.g., `phungph-waph-lab3.pdf`, and uploaded to Canvas to submit by the deadline. 
