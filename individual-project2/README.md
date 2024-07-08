@@ -8,7 +8,7 @@
 
 In this individual project, you will extend your knowledge and skills gained from Labs 3 and 4 to develop a full-stack web application using PHP and MySQL. The project involves creating a simple yet secure login system encompassing user registration, login functionality, profile viewing and editing, and password management. Emphasis will be placed on implementing robust security measures to ensure the integrity and confidentiality of user data. Requirements and grading distribution are outlined below.
 
-Requirements, guidelines, and tutorials were introduced in Lectures 17-20. Make sure that you follow the lectures for detailed instructions. Slides from these lectures are combined and attached for reference. Requirements with grading distribution are outlined below.
+Requirements, guidelines, and tutorials were introduced in Lectures 17-18. Make sure that you follow the lectures for detailed instructions. Slides from these lectures are combined and attached for reference. Requirements with grading distribution are outlined below.
 
 ## Functional Requirements
 
