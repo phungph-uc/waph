@@ -18,7 +18,7 @@ The target for this hackathon is a simple login web application  (similar to WAP
 
 ## **Important Notes for this Hackathon**
 
-- Similar to Hackathon 3, this hackathon requires a 'phishing' step to lure the vitim, and you can use XSS like in Hackathon 3 for this purpose. In that case, ensure your XSS code is valid and should not execute automatically to affect other students.
+- Similar to Hackathon 3, this hackathon requires a 'phishing' step to lure the victim, and you can use XSS like in Hackathon 3 for this purpose. In that case, ensure your XSS code is valid and should not execute automatically to affect other students.
 
 This hackathon has two parts with multiple sub-steps/tasks with grade distribution as follows. This hackathon was introduced and guided in Lecture 19. **Refer to the attached slides and video for detailed tutorials.** 
 
