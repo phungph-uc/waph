@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<script>
+    function startTime() {
+        document.getElementById('clock').innerHTML = new Date();
+        setTimeout(startTime, 500);
+    }
+    if (window.WebSocket) {
+        console.log("HTML5 WebSocket is supported");
+    } else {
+        alert("HTML5 WebSocket is not supported");
+    }
+    var myWebSocket = new WebSocket('wss://echo.websocket.org');
+        myWebSocket.onopen = function() { 
+    	console.log('WebSocket opened'); 
+    }
+    myWebSocket.onmessage = function(msg) {
+        console.log('Received from server: '+ msg.data);
+        document.getElementById("receivedmessage").innerHTML += msg.data + "<br>";
+    }
+    myWebSocket.onclose = function() { 
+    	console.log('WebSocket closed');
+    }
+    function doSend(msg){
+        if (myWebSocket) {
+            myWebSocket.send(msg);
+            console.log('Sent to server: ' +msg);
+        }
+    }
+    function entertoSend(e){
+        //alert("keycode =" + e.keyCode);
+        if(e.keyCode==13){//enter key
+            doSend(document.getElementById("message").value);
+            document.getElementById("message").value = "";
+        }
+    }
+</script>
+<body onload="startTime()">
+Current time: <div id="clock"></div>
+Type message and enter to send: <input type = "text" id="message" size = "30" onkeypress="entertoSend(event)" />
+<br>
+Message from server:
+<hr>
+<div id = "receivedmessage"></div>
+</body>
+</html>
